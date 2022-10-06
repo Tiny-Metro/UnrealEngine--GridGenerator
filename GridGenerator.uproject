@@ -4,6 +4,16 @@
 	"Category": "",
 	"Description": "",
 	"Enterprise": true,
+	"Modules": [
+		{
+			"Name": "GridGenerator",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	],
 	"Plugins": [
 		{
 			"Name": "Bridge",
