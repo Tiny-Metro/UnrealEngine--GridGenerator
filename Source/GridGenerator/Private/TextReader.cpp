@@ -3,7 +3,6 @@
 
 #include "TextReader.h"
 
-bool UTextReader::LoadTxt(FString FileName, FString& OutText)
-{
+bool UTextReader::LoadTxt(FString FileName, FString& OutText) {
 	return FFileHelper::LoadFileToString(OutText, *(FPaths::ProjectContentDir() + "Data/" + FileName));
 }
